@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sharanya M| Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet" />
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: #f2f6fb;
+      color: #333;
+      overflow-x: hidden;
+    }
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 50px;
+      background: white;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #333;
+      font-weight: 500;
+      transition: 0.3s;
+    }
+    nav a:hover { color: #0077ff; }
+
+    .hero {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 100px 40px;
+      gap: 60px;
+      animation: fadeIn 1.2s ease forwards;
+    }
+    .hero img {
+      width: 260px;
+      height: 320px;
+      object-fit: cover;
+      border-radius: 15px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+      animation: float 3s ease-in-out infinite;
+    }
+    .hero-text h1 {
+      font-size: 45px;
+      margin-bottom: 10px;
+    }
+    .hero-text p {
+      font-size: 18px;
+      max-width: 500px;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes float {
+      0% { transform: translateY(0px); }
+      50% { transform: translateY(-10px); }
+      100% { transform: translateY(0px); }
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      margin-top: 50px;
+      background: #e9eef5;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h2>Sharanya M</h2>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="Resume Page.html">Resume</a>
+      <a href="Contact Page.html">My Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <img src="my_image.jpg" alt="Profile Photo" />
+    <div class="hero-text">
+      <h1>Welcome!</h1>
+      <p>I'm Sharanya M, a passionate CSE student from JSS Academy of Technical Education. I love dancing, coding, and creating useful digital experiences.</p>
+    </div>
+  </section>
+</body>
+</html>

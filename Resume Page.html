@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Resume — Sharanya M</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+<style>
+  :root{--bg:#f7fbff;--card:#fff;--accent:#0b69ff}
+  body{font-family:'Poppins',sans-serif;background:var(--bg);margin:0;color:#0b1220}
+  .container{max-width:900px;margin:30px auto;padding:24px}
+  .resume{display:flex;gap:24px;background:var(--card);padding:22px;border-radius:12px;box-shadow:0 10px 30px rgba(2,6,23,0.06)}
+  .left{width:34%;background:linear-gradient(180deg,#ffffff,#f7f9ff);padding:18px;border-radius:8px}
+  .right{flex:1;padding:4px 2px}
+  img{width:100%;border-radius:8px;object-fit:cover}
+  h2{margin:6px 0}
+  .muted{color:#475569;font-size:14px}
+  .section{margin-top:14px}
+  .meta{font-size:14px}
+  .skill-badge{display:inline-block;padding:6px 8px;border-radius:999px;background:#eef6ff;margin:6px 6px 0 0;font-size:13px}
+  .print-btn{display:inline-block;margin-top:12px;padding:10px 14px;border-radius:8px;background:var(--accent);color:white;text-decoration:none}
+
+  /* Print styles */
+  @media print{
+    body{background:white}
+    .container{max-width:100%;margin:0;padding:0}
+    .print-btn{display:none}
+    .resume{box-shadow:none}
+  }
+</style>
+</head>
+<body>
+  <div class="container">
+    <a class="print-btn" href="#" onclick="window.print();return false">Print / Save as PDF</a>
+
+    <div class="resume">
+      <div class="left">
+        <img src="my_image.jpg" alt="Sharanya M">
+        <h2>Sharanya M</h2>
+        <div class="muted">BE CSE — JSS Academy of Technical Education (2023–2027)</div>
+
+        <div class="section">
+          <h3>Contact</h3>
+          <div class="meta">sharanyam626@gmail.com</div>
+          <div class="meta">+91 7204188966</div>
+          <div class="meta">Bengaluru</div>
+        </div>
+
+        <div class="section">
+          <h3>Languages</h3>
+          <div class="meta">Kannada, English</div>
+        </div>
+
+        <div class="section">
+          <h3>Hobbies</h3>
+          <div class="meta">Dancing</div>
+        </div>
+
+      </div>
+
+      <div class="right">
+        <h2>Career Objective</h2>
+        <p class="muted">To become a skilled software engineer by leveraging my technical abilities, creativity, and problem-solving mindset, while contributing to impactful and user-friendly digital solutions.</p>
+
+        <div class="section">
+          <h3>Education</h3>
+          <p class="meta"><strong>BE in CSE</strong> — JSS Academy of Technical Education (2023–2027) — CGPA: 8.5(till 4 semesters)</p>
+          <p class="meta"><strong>PU</strong> — PACE UMPU College(2020–2022)</p>
+          <p class="meta"><strong>10th</strong> — Girideepam English High School(2019–2020)</p>
+        </div>
+
+        <div class="section">
+          <h3>Skills</h3>
+          <div>
+            <span class="skill-badge">Java</span><span class="skill-badge">Python</span><span class="skill-badge">C</span>
+            <span class="skill-badge">DSA</span><span class="skill-badge">MySQL</span><span class="skill-badge">JavaScript</span>
+            <span class="skill-badge">HTML</span><span class="skill-badge">CSS</span><span class="skill-badge">Canva</span>
+          </div>
+        </div>
+
+        <div class="section">
+          <h3>Projects</h3>
+          <p class="meta"><strong>AI_AGENT_MOCK_INTERVIEW</strong><br>Frontend AI mock interview using HTML,CSS and JavaScript</p>
+        </div>
+
+        <div class="section">
+          <h3>Workshop</h3>
+          <p class="meta"><br>Building LLM Application With Prompt Engineering<br>Prinston — Data Science</p>
+        </div>
+
+        <div class="section">
+          <h3>Certifications</h3>
+          <p class="meta">NPTEL — AI and JAVA</p>
+        </div>
+
+        <div class="section">
+          <h3>Achievements</h3>
+          <p class="meta">Active contributor to college projects and hackathons.</p>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</body>
+</html>
